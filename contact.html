@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Let's Talk | KIMA Youth & Family Coach</title>
+  <meta name="description" content="Schedule a free Let's Talk call with Ikedah Alston, certified kids life coach and parenting coach in Lawrenceville, GA." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container--wide nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/logo.png" alt="KIMA Youth & Family Coach logo" />
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="btn-nav">Let's Talk</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact">
+    <div class="container">
+      <p class="section-label" style="color:var(--amber);">Free Discovery Call</p>
+      <h2>Let's Talk.</h2>
+      <p>Wondering if coaching is right for your child? Let's just talk first.</p>
+      <p>Tell me what's going on, and I'll be honest about whether I can help. No pressure, no scripts. Just a real conversation.</p>
+      <p style="margin-top:0.5rem;">You can also reach me directly at <a href="mailto:kimakidslifecoach@gmail.com" style="color:var(--amber); font-weight:600;">kimakidslifecoach@gmail.com</a></p>
+
+      <div class="contact__form">
+        <form action="https://formspree.io/f/kimakidslifecoach@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="First and last name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="child-age">Child's age</label>
+            <select id="child-age" name="child-age">
+              <option value="">Select an age range</option>
+              <option value="8-10">8–10</option>
+              <option value="11-12">11–12</option>
+              <option value="13-14">13–14</option>
+              <option value="family">I'm interested in family coaching</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">What's going on? (tell me as much or as little as you'd like)</label>
+            <textarea id="message" name="message" placeholder="What made you reach out today?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary" style="width:100%;">Send My Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container--wide footer__inner">
+      <div>
+        <div class="footer__brand">KIMA Youth & Family Coach</div>
+        <div class="footer__tagline">Rooted in Growth · Lawrenceville, GA</div>
+      </div>
+      <ul class="footer__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Let's Talk</a></li>
+      </ul>
+      <p class="footer__copy">© 2026 KIMA Youth & Family Coach · kimakidslifecoach@gmail.com · @kima_youthandfamilycoach</p>
+    </div>
+  </footer>
+
+</body>
+</html>
